@@ -12,13 +12,13 @@ function checkAge() {
     }
 
     if (user_text < 17) {
-        document.getElementById("result").innerHTML = "too young";
+        document.getElementById("result").innerHTML = "my dih is younger than lil bro💔"
 
     } else if (user_text >= 17 && user_text <= 22) {
         document.getElementById("result").innerHTML = "Mommmy🌹";
 
     } else if (user_text == 36) {
-        document.getElementById("result").innerHTML = "rau ma";
+        document.getElementById("result").innerHTML = "rau ma🍀🍀🍀";
 
     } else if (user_text == 67) {
         document.getElementById("result").innerHTML = "DID YOU JUST SAY YOUR AGE IS 67????";
