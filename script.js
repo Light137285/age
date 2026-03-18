@@ -1,13 +1,17 @@
+let box = document.getElementById("box");
+box.classList.add("active");
+box.classList.remove("active");
+
 function checkAge() {
     let user_text = document.getElementById("ageinput").value;
 
         if (!user_text) {
-        document.getElementById("result").innerText = "Please enter your age!";
+        document.getElementById("result").innerText = "your age, not your ex's love for you";
         return;
     }
 
     if (isNaN(user_text)) {
-        document.getElementById("result").innerText = "Please enter a valid number!";
+        document.getElementById("result").innerText = "cat 3 m, gion mat voi t a? tuoi cua m le len";
         return;
     }
 
