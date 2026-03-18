@@ -16,7 +16,7 @@ function checkAge() {
     }
 
     if (user_text < 17) {
-        document.getElementById("result").innerHTML = "my dih is younger than lil bro💔"
+        document.getElementById("result").innerHTML = "my dih is older than bro💔"
 
     } else if (user_text >= 17 && user_text <= 22) {
         document.getElementById("result").innerHTML = "Mommmy🌹";
