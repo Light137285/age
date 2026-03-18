@@ -1,3 +1,9 @@
-body {font-size: 280%;
+body {font-size: 170%;
     text-align: center;
+    background-image: url(handsomestaringeagle.jpg);
+    background-size: cover;
+}
+
+#result {
+    margin-top: 4.3%;
 }
